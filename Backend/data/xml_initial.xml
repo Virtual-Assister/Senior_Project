@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<degree>
+  <class id="CS1030">
+    <department>CS</department>
+    <code>1030</code>
+    <name>Computer Science Principles</name>
+    <credits>4</credits>
+  </class>
+    <class id="CS1050">
+    <department>CS</department>
+    <code>1050</code>
+    <name>Computer Science 1</name>
+    <credits>4</credits>
+  </class>
+  <class id="CS1400">
+    <department>CS</department>
+    <code>1400</code>
+    <name>Computer Organization 1</name>
+    <credits>4</credits>
+  </class>
+  <class id="CS2050">
+    <department>CS</department>
+    <code>2050</code>
+    <name>Computer Science 2</name>
+    <credits>4</credits>
+  </class>
+  <class id="CS2240">
+    <department>CS</department>
+    <code>2240</code>
+    <name>Discrete Structures for Computer Science</name>
+    <credits>4</credits>
+  </class>
+  <class id=" CS2400">
+    <department>CS</department>
+    <code>2400</code>
+    <name>Computer Organization 2</name>
+    <credits>4</credits>
+  </class>
+  <class id="CS3210">
+    <department>CS</department>
+    <code>3210</code>
+    <name>Principles of Programming Languages</name>
+    <credits>4</credits>
+  </class>
+  <class id="CS3240">
+    <department>CS</department>
+    <code>3240</code>
+    <name>Introduction to Theory and Computation</name>
+    <credits>2</credits>
+  </class>
+  <class id="CS3250">
+    <department>CS</department>
+    <code>3250</code>
+    <name>Software Development Methods and Tools</name>
+    <credits>4</credits>
+  </class>
+  <class id="CS3600">
+    <department>CS</department>
+    <code>3600</code>
+    <name>Operating Systems</name>
+    <credits>4</credits>
+  </class>
+  <class id="CS3700">
+    <department>CS</department>
+    <code>3700</code>
+    <name>Networking and Distributed Computing</name>
+    <credits>4</credits>
+  </class>
+  <class id="CS4050">
+    <department>CS</department>
+    <code>4050</code>
+    <name>Algorithms and Algorithm Analysis</name>
+    <credits>4</credits>
+  </class>
+  <class id="CS4360">
+    <department>CS</department>
+    <code>4360</code>
+    <name>Senior Experience in Computer Science</name>
+  <credits>4</credits>
+  </class>
+</degree>
