@@ -1,15 +1,15 @@
-import Header from './header.jsx'
-import Footer from './footer.jsx'
+import Header from "./components/Header.jsx";
+import Footer from "./components/Footer.jsx";
+import Body from "./components/Body.jsx";
 
 function App() {
-
-  return(
+  return (
     <>
-    <Header/>
-    <Footer/>
+      <Header />
+      <Body />
+      <Footer />
     </>
-  )
-  
+  );
 }
 
-export default App
+export default App;
