@@ -1,37 +1,12 @@
-import React, { useState } from "react";
 
-const BodyComponent = () => {
-  const [xmlContent, setXmlContent] = useState(null);
+const body = () => {
 
-  const handleButtonClick = () => {
-    const generatedXml = `<?xml version="1.0" encoding="UTF-8"?>
-<root>
-  <item>
-    <name>Item 1</name>
-    <price>10</price>
-  </item>
-  <item>
-    <name>Item 2</name>
-    <price>20</price>
-  </item>
-</root>`;
-
-    setXmlContent(generatedXml);
-  };
-
-  return (
-    <div>
-      <button onClick={handleButtonClick}>Generate Preview</button>
-      {/* Render XML preview if content is available */}
-      {xmlContent && (
-        <div>
-          <h2>Degree Preview</h2>
-          {/* Display formatted XML content */}
-          <pre style={{ whiteSpace: "pre-wrap" }}>{xmlContent}</pre>
-        </div>
-      )}
-    </div>
-  );
+    return (<div className="introPara">
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque necessitatibus repellendus voluptatum sint est illum, debitis hic beatae facere. Minima est quidem optio sapiente voluptas, accusantium ab animi rem placeat.
+    </p>
+    </div>);
+   
 };
 
-export default BodyComponent;
+export default body;

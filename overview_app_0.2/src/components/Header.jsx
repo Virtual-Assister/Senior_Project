@@ -1,28 +1,12 @@
-function Header() {
+import { BsFillGrid3X3GapFill } from 'react-icons/bs';
+
+const Header = () => {
   return (
-    <header>
-      <h1>Degree Overview generation project</h1>
-      <nav>
-        <ul>
-          <li>
-            {" "}
-            <a href="#">Home</a>
-          </li>
-          <li>
-            {" "}
-            <a href="#">About</a>
-          </li>
-          <li>
-            {" "}
-            <a href="#">Developers</a>
-          </li>
-          <li>
-            {" "}
-            <a href="#">Dev team contact information</a>
-          </li>
-        </ul>
-      </nav>
+    <div>
+    <header className='title_header'>
+      <button className='menu_button'><BsFillGrid3X3GapFill/></button> <h1>Degree Overview generation project</h1>
     </header>
+    </div>
   );
 }
 export default Header;
