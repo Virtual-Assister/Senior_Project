@@ -66,3 +66,18 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+#wrapper {
+  display: flex; /* Use flexbox */
+  border: 1px solid black;
+}
+
+#first {
+  flex: 1; /* Make #first take up remaining space */
+  border: 1px solid black;
+}
+
+#second {
+  flex: 1; /* Make #second take up remaining space */
+  border: 1px solid black;
+}
