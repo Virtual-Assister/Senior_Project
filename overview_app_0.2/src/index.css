@@ -54,6 +54,7 @@ button:focus-visible {
   background-color: #646cff;
   position: absolute;
   left: 30px;
-  top: 2%;
+  top: 3%;
+  font-size: 18px;
 }
 
