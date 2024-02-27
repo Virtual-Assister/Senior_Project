@@ -1,5 +1,5 @@
 :root {
-  background-color: #242424;
+  background-color: #3a3333;
 }
 
 
@@ -14,6 +14,7 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  position: center;
 }
 
 button:hover {
@@ -47,6 +48,7 @@ button:focus-visible {
   text-indent:100px;
   background-color: #464ba9;
   border: 3px solid white;
+  border-radius: 15px;
 
 }
 

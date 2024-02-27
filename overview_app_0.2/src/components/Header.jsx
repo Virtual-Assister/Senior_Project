@@ -1,6 +1,6 @@
 import { BsFillGrid3X3GapFill } from 'react-icons/bs';
 
-function Header() {
+const Header = () => {
   return (
     <div>
     <header className='title_header'>
