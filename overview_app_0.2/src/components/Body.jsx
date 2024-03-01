@@ -1,12 +1,15 @@
-
 const body = () => {
-
-    return (<div className="introPara">
-    <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque necessitatibus repellendus voluptatum sint est illum, debitis hic beatae facere. Minima est quidem optio sapiente voluptas, accusantium ab animi rem placeat.
-    </p>
-    </div>);
-   
+  return (
+    <div className="intro-para">
+      <p>
+        Welcome to Degree Overview, the idea behind this website is to help
+        students with getting a better idea behind their time spent in the
+        Computer Science program at MSU Denver. To get this to work, hit the
+        "Generate" button and the outcome should be a file that shows you a plan
+        of what classes need to be taken.
+      </p>
+    </div>
+  );
 };
 
 export default body;

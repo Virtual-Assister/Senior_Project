@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import { CustomButton } from "./CustomButton"; // Import the correct Button
 
-const BodyComponent = () => {
+const BodyComponent = ({ classes }) => {
   const [xmlContent, setXmlContent] = useState(null);
 
   const handleButtonClick = () => {
@@ -19,15 +20,29 @@ const BodyComponent = () => {
     setXmlContent(generatedXml);
   };
 
+  const handleDownloadClick = () => {};
+
+  const handleEmailClick = () => {};
+
   return (
-    <div className="generateButton">
-      <button onClick={handleButtonClick}>Generate Preview</button>
+    <div className="generate-button">
+      <CustomButton text="Generate Preview" handleEvent={handleButtonClick} />
       {/* Render XML preview if content is available */}
       {xmlContent && (
         <div>
           <h2>Degree Preview</h2>
           {/* Display formatted XML content */}
           <pre style={{ whiteSpace: "pre-wrap" }}>{xmlContent}</pre>
+          <a
+            href="ExamplePDF"
+            download="Example-PDF-document"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <CustomButton text="Download" handleEvent={handleDownloadClick} />
+          </a>
+
+          <CustomButton text="Email" handleEvent={handleEmailClick} />
         </div>
       )}
     </div>

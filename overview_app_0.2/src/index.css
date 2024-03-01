@@ -2,7 +2,6 @@
   background-color: #3a3333;
 }
 
-
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -26,33 +25,32 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
- footer {
-   color: #D2103E;
-   position: fixed;
-   bottom: 0;
-   left: 0;
- }
+footer {
+  color: #d2103e;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
 
- .introPara {
+.intro-para {
   color: #ffffff;
   line-height: 2;
-  margin-top: 80px;
-  margin-bottom: 80px;
-  margin-left: 100px;
- }
+  text-align: left;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
 
-.title_header {
+.title-header {
   text-align: left;
   color: #ffffff;
-  font-size:13px;
-  text-indent:100px;
+  font-size: 13px;
+  text-indent: 100px;
   background-color: #464ba9;
   border: 3px solid white;
   border-radius: 15px;
-
 }
 
-.menu_button {
+.menu-button {
   background-color: #646cff;
   position: absolute;
   left: 30px;
@@ -60,3 +58,7 @@ button:focus-visible {
   font-size: 18px;
 }
 
+.generate-button {
+  text-align: center;
+  padding: 0;
+}
