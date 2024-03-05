@@ -9,7 +9,7 @@ The idea behind our project is that we will create a website that advisors/stude
 
 ---
 
-## Instructions: (02/22/24)
+## Instructions: (03/05/2024)
 
 To get the current version of our project up and running, please follow the steps listed below in your respective terminal:
 
