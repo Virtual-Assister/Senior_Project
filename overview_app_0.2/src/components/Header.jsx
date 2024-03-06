@@ -8,6 +8,11 @@ const Header = () => {
           <BsFillGrid3X3GapFill />
         </button>{" "}
         <h1>Degree Overview generation project</h1>
+        <ul className="header-list">
+          <li><a className="dev-title" href="#developement">Developement</a></li>
+          <li><a className="contact-title" href="#contact">Contact</a></li>
+          <li><a className="about-title" href="#About">About</a></li>
+        </ul>
       </header>
     </div>
   );

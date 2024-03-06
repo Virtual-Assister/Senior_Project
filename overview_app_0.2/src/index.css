@@ -62,3 +62,31 @@ footer {
   text-align: center;
   padding: 0;
 }
+
+.header-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.dev-title {
+  font-size: 20px;
+}
+
+.contact-title {
+  font-size: 20px;
+}
+
+.about-title {
+  font-size: 20px;
+}
+
+li a {
+  color: #646cff;
+  float: right;
+}
+
+li a:hover {
+  color:#ffffff
+}
