@@ -9,14 +9,7 @@ The idea behind our project is that we will create a website that advisors/stude
 
 ---
 
-## Instructions: (03/05/2024)
+## Access: (03/21/2024)
+To access our website, please click the following link: https://main.d231jlb3zxv7ks.amplifyapp.com/
+Instructions on how to use the website will be updated ASAP. Thank you for your patience! 
 
-To get the current version of our project up and running, please follow the steps listed below in your respective terminal:
-
-- Open up your terminal/command prompt and change directory(cd) into a place where you feel comfortable copying this repo.
-- Copy the repo into your local system using "git clone https://github.com/Virtual-Assister/Senior_Project" on your terminal/command prompt.
-- "cd" into the cloned repo.
-- "cd" into the "overview_app_0.2" directory.
-- Run the following command " npm run dev".
-- If you run into any dependency errors, first run "npm install" to install all required dependencies.
-- A window should pop up from your preferred browser and boom! Good to go. 
