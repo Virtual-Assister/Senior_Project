@@ -10,6 +10,6 @@ The idea behind our project is that we will create a website that advisors/stude
 ---
 
 ## Access: (03/21/2024)
-To access our website, please click the following link: https://main.d231jlb3zxv7ks.amplifyapp.com/
+To access our website, please click the following link: https://degreeoverview.com
 Instructions on how to use the website will be updated ASAP. Thank you for your patience! 
 
