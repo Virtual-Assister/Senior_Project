@@ -1,6 +1,9 @@
 :root {
   background-color: #3a3333;
 }
+body {
+  margin: 0;
+}
 
 button {
   border-radius: 8px;
@@ -27,23 +30,25 @@ button:focus-visible {
 
 footer {
   color: #ffffff;
-  position: fixed;
   bottom: 0;
   left: 0;
 }
 
 .intro-para {
+  width: 100%;
   color: #ffffff;
   line-height: 2;
   text-align: left;
   padding-top: 2%;
   padding-bottom: 2%;
-  font-size: 1.5rem;
+  font-size: 20px;
+  background-color: #2f2e2e;
 }
 
 .intro-title {
   color: #ffffff;
-  padding: 1em 2em;
+  font-size: 26px;
+  padding: 5px 5px 0px;
 }
 
 .title-header {
@@ -66,5 +71,6 @@ footer {
 
 .generate-button {
   text-align: center;
-  padding: 0;
+  padding: 2%;
+  font-size: 20px;
 }
