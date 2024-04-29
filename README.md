@@ -39,4 +39,6 @@ After installing the dependencies run the servers for the website and the Django
 
 For the website type: ```npm start```
 
-For the backend navigate to the folder 
+For the backend navigate to the folder ```project``` under the ```react-django``` folder and type: ```python manage.py runserver``` into the termanl to start the Django Rest API.
+
+The application is now running.
